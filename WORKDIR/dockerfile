@@ -1,0 +1,6 @@
+FROM almalinux:9
+USER cnu
+RUN mkdir /apps
+WORKDIR /apps
+RUN pwd
+CMD [ "sleep", "100" ]
