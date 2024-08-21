@@ -1,4 +1,4 @@
 FROM almalinux:9
-label Aim="interview" \
+label aim="interview" \
       purpose="getjob" \
       description="get the devops job ASAP"
