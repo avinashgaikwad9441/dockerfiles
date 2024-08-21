@@ -1,2 +1,4 @@
 FROM almalinux:9
+RUN adduser cnu
+USER cnu
 CMD [ "sleep", "100" ]
