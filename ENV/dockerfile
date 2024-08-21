@@ -1,0 +1,5 @@
+FROM almalinux:9
+ENV trainer="cnu" \
+    course="docker" \
+    duration="2months"
+CMD ["sleep", "100"]
